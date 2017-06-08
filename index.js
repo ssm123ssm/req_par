@@ -19,7 +19,7 @@ app.get("/api", function(req, res){
     
     //ret.User_agent = req.headers['user-agent'];
     exip(function(err, ip){
-        ret.ip = ip;
+        ret.ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
         res.send(ret);
     
     });
