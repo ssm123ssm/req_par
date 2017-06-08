@@ -1,0 +1,25 @@
+body{
+    margin-top: 5%;
+    background-color: rgba(150, 252, 218, 0.75);
+}
+
+h2{
+    margin-bottom: 50px;
+}
+
+.pr{
+    margin: 20px;
+    font-size:1.2rem;
+}
+
+.footer{
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+    border-top:1px solid grey;
+    padding-top:20px;
+}
+
+.ct{
+    border:1px solid #278383;
+}
